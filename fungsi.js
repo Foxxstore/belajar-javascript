@@ -17,3 +17,4 @@ return a - b;
 
 alert(jumlah (5, 20))
 alert(kurang (25, 5))
+

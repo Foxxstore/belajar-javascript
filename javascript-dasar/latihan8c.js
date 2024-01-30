@@ -1,4 +1,4 @@
-var pilihanUser = prompt("Apakah kamu gajah, orang, atau semut?");
+var pilihanUser = prompt("Silahkan pilih gajah, orang, atau semut?");
 var pilihanComputer = Math.random();
 
 if (pilihanComputer < 0.34) {
@@ -21,7 +21,10 @@ function bandingkanPilihan(user, computer) {
     } else {
         return "Kamu kalah!";
     }
+
 }
+
+
 
 if (pilihanUser === "gajah" || pilihanUser === "orang" || pilihanUser === "semut") {
     var hasil = bandingkanPilihan(pilihanUser, pilihanComputer);

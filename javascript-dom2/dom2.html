@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pilih link</h1>
+    <form action="">
+        <select name="linkGweh" id="linkGweh"  onchange="link()">
+            <option value="">Pilih link</option>
+            <option value="https://www.google.com/">google</option>
+            <option value="https://www.instagram.com/">instagram</option>
+            <option value="https://www.tiktok.com/">tiktok</option>
+        </selcet>
+    </form>
+
+    <script type="text/javascript">
+          function link() {
+            var link = document.getElementById("linkGweh").value;
+          document.location.href = link;
+        }
+    </script>
+</body>
+</html>
